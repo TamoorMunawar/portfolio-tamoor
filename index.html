@@ -21,9 +21,9 @@
 ====================================================================== -->
 
 <!-- EDIT: page title & description -->
-<title>Tamoor Munawar — Full-stack engineer for KYC, AML and fintech products</title>
-<meta name="description" content="Full-stack engineer with 6+ years of experience and 100+ projects delivered. KYC, AML, fraud and remittance products built end to end. Based in Lahore, working worldwide.">
-<meta property="og:title" content="Tamoor Munawar — Full-stack engineer">
+<title>Tamoor Munawar — Senior Full Stack Engineer for KYC, AML and fintech products</title>
+<meta name="description" content="Senior Full Stack Engineer with 6+ years of experience and 100+ projects delivered across KYC/AML compliance, AI/RAG, and full-stack product engineering. Based in Lahore, working worldwide.">
+<meta property="og:title" content="Tamoor Munawar — Senior Full Stack Engineer">
 <meta property="og:description" content="I design and ship KYC, AML and remittance products, from first screen to production API.">
 <meta property="og:image" content="images/profile.webp">
 <meta name="theme-color" content="#071A17">
@@ -204,7 +204,9 @@ main, .site-footer { position: relative; z-index: 1; }
 .about { padding: clamp(70px, 9vw, 120px) 0 clamp(50px, 7vw, 90px); }
 .about-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
 .about p.big { font-size: clamp(1.15rem, 1.9vw, 1.45rem); line-height: 1.6; color: var(--text); max-width: 56ch; margin-top: 22px; }
-.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.core-line { margin-top: 20px; color: var(--muted); font-size: .98rem; line-height: 1.6; max-width: 62ch; }
+.core-line strong { color: var(--text); font-weight: 600; }
 .chips li { padding: 7px 15px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255,255,255,.04); font-size: .92rem; color: var(--muted); transition: color .25s, border-color .25s, transform .25s var(--ease); }
 .chips li:hover { color: var(--lime); border-color: rgba(198,242,107,.5); transform: translateY(-3px); }
 .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -238,6 +240,8 @@ main, .site-footer { position: relative; z-index: 1; }
 .pts li { position: relative; padding-left: 22px; color: var(--text); opacity: .88; font-size: 1rem; }
 .pts li::before { content: ""; position: absolute; left: 0; top: .62em; width: 8px; height: 8px; border-radius: 2px; background: var(--grad); transform: rotate(45deg); }
 .tl-card .tools { margin-top: 18px; }
+.extra-projects { margin-top: 34px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.extra-projects .desc { margin-top: 12px; color: var(--muted); }
 
 /* =====================================================================
    7. SERVICES
@@ -245,7 +249,7 @@ main, .site-footer { position: relative; z-index: 1; }
 .services { padding: clamp(50px, 7vw, 90px) 0 clamp(70px, 9vw, 120px); background: var(--bg-2); border-block: 1px solid var(--line); }
 .svc-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 20px 40px; margin-bottom: 48px; }
 .svc-head p { color: var(--muted); max-width: 40ch; }
-.svc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; perspective: 1100px; }
+.svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; perspective: 1100px; }
 .svc { position: relative; overflow: hidden; padding: 30px 26px 28px; min-height: 280px; display: flex; flex-direction: column; justify-content: space-between; border-radius: 24px; background: var(--card); border: 1px solid var(--line); transition: transform .35s var(--ease), border-color .3s, background-color .3s; transform-style: preserve-3d; will-change: transform; }
 .svc::before, .project::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .3s; background: radial-gradient(420px circle at var(--mx,50%) var(--my,50%), rgba(198,242,107,.16), transparent 45%); }
 .svc:hover::before, .project:hover::before { opacity: 1; }
@@ -389,7 +393,7 @@ form .btn { justify-self: start; }
       <!-- EDIT: headline. The last line types out the words listed in TYPED_WORDS (bottom of file). -->
       <h1>
         <span class="l grad-text" data-reveal style="--d:.08s">I'm Tamoor,</span>
-        <span class="l" data-reveal style="--d:.16s">full-stack engineer</span>
+        <span class="l" data-reveal style="--d:.16s">senior full-stack engineer</span>
         <span class="l" data-reveal style="--d:.24s">building</span>
         <span class="l typed-line" data-reveal style="--d:.3s"><span class="grad-text" id="typed">KYC platforms.</span><i class="caret" aria-hidden="true"></i></span>
       </h1>
@@ -438,17 +442,19 @@ form .btn { justify-self: start; }
       <p class="eyebrow" data-reveal>About me</p>
       <h2 class="h2" data-reveal style="--d:.08s">Complicated workflows, made simple to finish.</h2>
       <!-- EDIT: keep this to 2–3 sentences -->
-      <p class="big" data-reveal style="--d:.16s">I'm a full-stack engineer with 6+ years of experience and 100+ projects delivered, turning regulated workflows into products people can actually finish, from KYC onboarding and fraud tooling to remittance apps. I design and build the whole thing, front end to back end, on AWS or DigitalOcean. Based in Lahore, working with clients in fintech, healthcare and e-commerce.</p>
+      <p class="big" data-reveal style="--d:.16s">I'm a senior full-stack engineer with 6+ years of experience and 100+ projects delivered, turning regulated workflows into products people can actually finish, from KYC onboarding and fraud tooling to remittance apps. I design and build the whole thing, front end to back end, on AWS or DigitalOcean. Based in Lahore, working with clients across fintech, healthcare, finance and retail.</p>
+      <!-- EDIT: core competency areas -->
+      <p class="core-line" data-reveal style="--d:.2s"><strong>Core competencies:</strong> KYC/AML onboarding, sanctions/PEP &amp; adverse-media screening, fraud scoring and SAR/STR/CTR workflows · OCR and computer-vision pipelines for ID documents · product roadmapping, requirements and Agile delivery.</p>
       <!-- EDIT: your main tools -->
       <ul class="chips" data-reveal style="--d:.24s">
-        <li>Flutter</li><li>React</li><li>Next.js</li><li>Node.js</li><li>.NET</li><li>Python</li><li>PostgreSQL</li><li>AWS</li><li>LLM / RAG</li>
+        <li>Flutter</li><li>React</li><li>Next.js</li><li>Node.js</li><li>.NET</li><li>Python</li><li>PostgreSQL</li><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>LLM / RAG</li><li>LangChain</li><li>OpenCV / OCR</li>
       </ul>
     </div>
 
     <!-- EDIT: numbers. data-count is the number that counts up. -->
     <div class="stats">
       <div class="stat" data-reveal="right"><b><span data-count="6" data-suffix="+">0</span></b><span>Years building production software</span></div>
-      <div class="stat" data-reveal="right" style="--d:.1s"><b><span data-count="100" data-suffix="+">0</span></b><span>Projects delivered across fintech, healthcare and retail</span></div>
+      <div class="stat" data-reveal="right" style="--d:.1s"><b><span data-count="100" data-suffix="+">0</span></b><span>Projects delivered across fintech, healthcare, finance and retail</span></div>
       <div class="stat" data-reveal="right" style="--d:.2s"><b><span data-count="40" data-suffix="%+">0</span></b><span>Faster AI responses after pipeline work at Vectara</span></div>
     </div>
   </div>
@@ -474,6 +480,7 @@ form .btn { justify-self: start; }
             <li>Built enterprise AI search and retrieval platforms with LLMs, vector embeddings, semantic ranking and RAG.</li>
             <li>Cut average AI response latency by more than 40% by streamlining backend and async pipelines.</li>
             <li>Built ingestion pipelines for millions of documents and secure multi-tenant APIs for high-volume retrieval.</li>
+            <li>Introduced AI-assisted engineering workflows using GitHub Copilot and internal tooling to boost development productivity.</li>
           </ul>
           <ul class="tools"><li>React</li><li>TypeScript</li><li>Python</li><li>FastAPI</li><li>Kubernetes</li><li>AWS</li></ul>
         </div>
@@ -552,6 +559,11 @@ form .btn { justify-self: start; }
         <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="6"/><path d="M24 4v8M24 36v8M4 24h8M36 24h8M10 10l6 6M32 32l6 6M38 10l-6 6M16 32l-6 6"/></svg>
         <div><h3>AI and RAG features</h3><p>Search, summaries and assistants grounded in your own data.</p></div>
       </article>
+      <article class="svc spot" data-reveal style="--d:.32s">
+        <span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12L12 4M5 4h7v7"/></svg></span>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12h36M6 24h36M6 36h20"/><circle cx="38" cy="36" r="5"/></svg>
+        <div><h3>Product &amp; delivery</h3><p>Roadmaps, specs and Agile sprints, from backlog to release.</p></div>
+      </article>
     </div>
   </div>
 </section>
@@ -579,7 +591,7 @@ form .btn { justify-self: start; }
       <div>
         <h3>Send Money Hub</h3>
         <p class="kind">Remittance app for a FINTRAC-registered Canadian money service business</p>
-        <p class="desc">Sign-up, identity verification, transfers and tracking, with the rate and fee shown before you send. I designed the full app and its brand system.</p>
+        <p class="desc">Sign-up, identity verification, transfers and tracking, with the rate and fee shown before you send. I lead product and engineering on this one, coordinating the dev team and reporting to the CEO, and designed the full app and its brand system.</p>
         <ul class="facts"><li><b>77</b>screens</li><li><b>11</b>modules</li></ul>
         <ul class="tools" aria-label="Tools used"><li>Flutter</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>AWS</li><li>Design system</li></ul>
         <!-- EDIT: GitHub link(s). Delete this <div> if the code is private. -->
@@ -628,7 +640,7 @@ form .btn { justify-self: start; }
       <div>
         <h3>UP KYC</h3>
         <p class="kind">Mobile identity verification app</p>
-        <p class="desc">End-to-end mobile KYC: email sign-up, OTP, consent, ID capture, a liveness check and a verified dashboard, with verification done on the server.</p>
+        <p class="desc">End-to-end mobile KYC: email sign-up, OTP, consent, ID capture across four document types, an active liveness check (blink, smile, turn) and a verified dashboard, with verification done on the server.</p>
         <ul class="facts"><li><b>11</b>screens</li><li><b>4</b>ID types</li></ul>
         <ul class="tools" aria-label="Tools used"><li>Flutter</li><li>.NET</li><li>AWS</li><li>Material Design 3</li></ul>
         <!-- EDIT: GitHub link(s). Delete this <div> if the code is private. -->
@@ -670,6 +682,22 @@ form .btn { justify-self: start; }
       </div>
     </article>
 
+    </div>
+
+    <!-- EDIT: more projects without screenshots. Copy one <article class="tl-card"> to add another. -->
+    <div class="extra-projects">
+      <article class="tl-card spot" data-reveal>
+        <h3>DemoPilot</h3>
+        <p class="org">RAG-based AI sales assistant</p>
+        <p class="desc">A retrieval-augmented LLM assistant that structures unstructured product knowledge to answer questions in real time during live demos.</p>
+        <ul class="tools" aria-label="Tools used"><li>Python</li><li>LLMs</li><li>RAG</li></ul>
+      </article>
+      <article class="tl-card spot" data-reveal style="--d:.1s">
+        <h3>KYC Right Source / OPEN AML</h3>
+        <p class="org">B2B compliance SaaS</p>
+        <p class="desc">A sanctions, PEP and adverse-media screening product for businesses. I own product direction and go-to-market.</p>
+        <ul class="tools" aria-label="Tools used"><li>B2B SaaS</li><li>Sanctions &amp; PEP</li><li>Adverse media</li></ul>
+      </article>
     </div>
   </div>
 </section>
